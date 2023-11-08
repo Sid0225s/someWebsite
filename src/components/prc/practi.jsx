@@ -87,16 +87,16 @@ function Navbar() {
                   </ul>
                   <div className="text-white m-1 p-3"></div>
                 </div>
-                <div className="col-12 col-lg-3 p-0 sideLine">
-                  <div className="d-flex justify-content-center align-items-center svg_top">
-                    <div className="me-3 p-2 py-3">
-                      <FaInstagramSquare />
+                <div>
+                  <div className="hidden md:flex">
+                    <div className="me-3 p-2 py-3 cursor-pointer">
+                      <FaInstagramSquare size={30} />
                     </div>
-                    <div className="me-3 p-2 py-3">
-                      <FaFacebook />
+                    <div className="me-3 p-2 py-3 cursor-pointer">
+                      <FaFacebook size={30} />
                     </div>{" "}
-                    <div className="me-3 p-2 py-3">
-                      <FaLinkedin />
+                    <div className="me-3 p-2 py-3 cursor-pointer">
+                      <FaLinkedin size={30} />
                     </div>
                   </div>
                 </div>
